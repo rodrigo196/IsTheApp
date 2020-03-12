@@ -76,10 +76,12 @@ object Consts {
     const val FACEBOOK_MESSENGER_PACK_NAME = "com.facebook.orca"
     const val WHATSAPP_PACK_NAME = "com.whatsapp"
     const val INSTAGRAM_PACK_NAME = "com.instagram.android"
+    const val GMAIL_PACK_NAME = "com.google.android.gm"
 
     const val TYPE_MESSENGER = 1
     const val TYPE_WHATSAPP = 2
     const val TYPE_INSTAGRAM = 3
+    const val TYPE_GMAIL = 4
 
     val TEXT : Pattern = Pattern.compile("^[a-zA-ZñÑЁёА-я]+\$")
 

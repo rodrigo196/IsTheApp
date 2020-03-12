@@ -10,6 +10,8 @@ import com.github.midros.istheapp.utils.Consts.TYPE_INSTAGRAM
 import com.github.midros.istheapp.utils.Consts.TYPE_MESSENGER
 import com.github.midros.istheapp.utils.Consts.TYPE_WHATSAPP
 import com.github.midros.istheapp.utils.Consts.WHATSAPP_PACK_NAME
+import com.github.midros.istheapp.utils.Consts.GMAIL_PACK_NAME
+import com.github.midros.istheapp.utils.Consts.TYPE_GMAIL
 import javax.inject.Inject
 
 /**
@@ -59,6 +61,7 @@ class NotificationService : NotificationListenerService() {
                 FACEBOOK_MESSENGER_PACK_NAME -> TYPE_MESSENGER
                 WHATSAPP_PACK_NAME -> TYPE_WHATSAPP
                 INSTAGRAM_PACK_NAME -> TYPE_INSTAGRAM
+                GMAIL_PACK_NAME -> TYPE_GMAIL
                 else -> 0
             }
 
